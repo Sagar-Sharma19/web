@@ -1,0 +1,197 @@
+body{
+    margin: 0px;
+    background-color: aqua;
+}
+#Header1{
+    height: 40px;
+    width: 100%;
+    background-color: darkblue;
+}
+.text{
+    font-weight: bold;
+    color:white;
+    padding-top: 5px;
+}
+#Banner{
+    height: 100px;
+    background-color: white;
+}
+#Banner img{
+    height: 100px;
+    width: 100%;
+}
+#nav_bar{
+    height: 50px;
+    width: 100%;
+    background-color: darkblue;
+}
+#nav_bar ul{
+    float: left;
+    margin-left: 50px;
+}
+#nav_bar ul li{
+    list-style: none;
+    float: left;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#nav_bar ul li a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    padding-right: 30px;
+    font-size: 20px;
+}
+#nav_bar ul li a:hover{
+    color:red;
+}
+#BG_photo{
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    background-image: url(/Image/Home\ BG.jpg);
+    opacity: 90%;
+    background-repeat: no-repeat;
+    margin-top: 5px;
+    margin-right: 5px;
+    
+
+}
+#line{
+    height: 2px;
+    width: 960px;
+    background-color: red;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#Welcome{
+
+    line-break: auto;
+    padding-left: 80px;
+}
+#Welcome p{
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+#Welcome h2{
+    width: 400px;
+    font-size: 30px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    
+}
+#Message{
+    height: 500px;
+    width: 1920px;
+    display: flex;
+    
+}
+.message_text{
+    width: 1000px;
+    padding-left: 80px;
+    float: left;
+
+}
+.message_text h2{
+    width: 500px;
+    font-size: 30px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-family: cursive;
+}
+
+.message_text p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    padding-left: 3px;
+    text-align: justify;
+    padding-right: 10px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    width: 1000px;
+    
+}
+.message_image{
+    width: 800px;
+    height: px;
+    float: right;
+}
+.message_image img{
+    height: 300px;
+    width: 300px;
+    height: auto;
+   padding:100px;
+   shape-image-threshold: calc();
+}
+#footer0{
+    background-color: darkblue;
+    height: 200px;
+    width: 1920px;
+    display: flex;
+}
+.footer1{
+    height: 150px;
+    width: 650px;
+    float: left;
+}
+.footer1 h2{
+    color: white;
+    font-size: 20px;
+    padding-left: 80px;
+    padding-top: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer1 ul{
+    text-decoration: none;
+    list-style: none;
+    padding-left: 80px;
+}
+.footer1 ul li a{
+    color: white;
+    text-decoration: none;
+    text-align: justify;
+    margin-top:3px;
+}
+.footer1 ul li a:hover{
+    color: red;
+}
+.footer2{
+    color: white;
+    padding-top: 4px;
+}
+.footer2 ul{
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer2 ul h2{
+    font-size: 20px;
+}
+.footer2 ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    text-align: center;
+}
+.footer2 ul li a:hover{
+    color:red
+}
+
+#footer{
+    height: 30px;
+    width: 100%;
+    background-color: red;
+    color: white;
+    padding: 0;
+
+}
+#footer p{
+    padding-top: 5px;
+
+}
